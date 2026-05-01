@@ -55,7 +55,7 @@ LANGFLOW_ENDPOINT = (
     "http://localhost:7861/api/v1/run/"
     "72523ee4-6ac3-4738-9506-dc5e7f6f7bc1"
 )
-LANGFLOW_API_KEY = os.environ.get("LANGFLOW_API_KEY", "sk-HcQH6dlVyGApmeCCI4Ak6P0L1SF3WvDhRNm0wcvwTJ4")
+LANGFLOW_API_KEY = os.environ.get("LANGFLOW_API_KEY", "")
 LANGFLOW_MODEL_NAME = "gemma4:31b"   # for logging/display only
 
 # Default models — fully local via Ollama, no cloud API keys required
